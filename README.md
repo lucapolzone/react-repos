@@ -1,6 +1,6 @@
 # React-Repos
 
-Un mio progetto personale per studiare React + Typescript
+Un mio progetto personale per studiare React + Typescript + Redux Toolkit
 
 ## Configurazione e avvio 
 
