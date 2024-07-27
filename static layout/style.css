@@ -1,0 +1,150 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CUSTOM PROPS */
+
+:root {
+  --small-size: 1rem;
+  --medium-size: 2rem;
+  --large-size: 3rem;
+  --xlarge-size: 4rem;
+
+  --grid-padding: 1rem;
+  --container-padding: 1rem;
+
+  /* palette */
+  --button-main-color: #519c57;
+  /* --text-color-secondary: #777777; */
+}
+
+
+/* UTILS PROPS */
+
+.d-flex {
+  display: flex;
+} 
+
+/* esempi */
+.btn {
+  /* display: block; */
+  text-align: center;
+  padding: 10px 12px;
+  border: 1px solid currentColor;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.btn.primary {
+  background-color: var(--button-main-color);
+  border: 0;
+  color: rgb(228, 213, 10);
+}
+
+
+.btn:hover {
+  filter: brightness(0.80);
+}
+
+.navbar a {
+  display: inline-block;
+  margin: 5px 10px 10px 0;
+}
+
+
+
+/* GRID PROPS */
+
+/* esempi */
+.container {
+  max-width: 1180px;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overflow-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(var(--grid-padding) * -1);
+  margin-right: calc(var(--grid-padding) * -1);
+}
+
+.col {
+  padding: var(--grid-padding);
+  width: calc(100% / 3);
+}
+
+.card {
+  height: 100%;
+  padding: var(--small-size);
+  box-shadow: 0 0px 3px 3px #d4d4d4;
+  border-radius: 10px;
+}
+
+
+
+
+h1 {
+  text-align: center;
+}
+
+
+
+/* ### MEDIA QUERIES 
+--------------------- */
+
+
+/* ==========================================
+768px < M screen (Desktop "stretto") < 992px 
+============================================ */
+
+@media all and (max-width: 992px) {
+
+}
+
+
+/* ===============================
+576px < SM screen (Tablet) < 768px
+=============================== */
+
+@media all and (max-width: 768px) {
+
+}
+
+
+/* =======================
+XS screen (Mobile) < 576px 
+======================== */
+
+@media all and (max-width: 576px) {
+  
+}
