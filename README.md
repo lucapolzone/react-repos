@@ -2,9 +2,9 @@
 
 Un mio progetto personale per studiare React + Typescript + Redux Toolkit
 
-## Configurazione e avvio 
+## Inizializzazione
 
-Sono partito da una cartella vuota e ho usato il tool "Create React App". <br />
+Ho creato la cartella del progetto, sono entrato dal terminale nella cartella e ho usato il tool "Create React App". <br />
 Ho associato Typescript al comando da terminale
 
 ```
@@ -33,10 +33,9 @@ npm install query-string
 npm install react-router-dom
 
 ## sass
-npm install -D sass 
+npm install -D sass
 ```
 
 <br />
-
 
 Infine `npm start` per avviare il progetto in sviluppo
